@@ -1,0 +1,29 @@
+body, html {
+    margin: 0;
+    background-image: url("./img/bg.jpg");
+    background-position: center;
+    background-repeat: repeat;
+}
+
+.foodList{
+    text-align: center;
+}
+
+ul li { 
+    display:inline;
+    padding-top: 15%;;
+}
+
+.recipeDetails {
+    background-color: white;
+    margin: 0 5% 0 5%;
+    padding: 5%;
+}
+
+.recipeDetails, .ingridients, .steps {
+    text-align: left;
+}
+
+.recipeDetails .title {
+    text-align: center;
+}
